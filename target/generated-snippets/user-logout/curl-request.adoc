@@ -1,0 +1,8 @@
+[source,bash]
+----
+$ curl 'http://localhost:8080/user/logout' -i -X POST \
+    -H 'Content-Type: application/json;charset=utf-8' \
+    -d '{
+  "token" : "87ff3ecd-b902-46c3-b6e9-46b4e2fa09f8"
+}'
+----

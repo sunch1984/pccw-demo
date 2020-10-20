@@ -1,0 +1,8 @@
+[source,http,options="nowrap"]
+----
+GET /user HTTP/1.1
+token: 87ff3ecd-b902-46c3-b6e9-46b4e2fa09f8
+Accept: application/json
+Host: localhost:8080
+
+----

@@ -1,0 +1,11 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 73
+
+{
+  "version" : "x.y.x",
+  "releasedAt" : "2020-01-01T10:12:12.123Z"
+}
+----

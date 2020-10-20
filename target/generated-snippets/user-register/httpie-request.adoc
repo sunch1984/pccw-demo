@@ -1,0 +1,11 @@
+[source,bash]
+----
+$ echo '{
+  "first" : "firstName4",
+  "last" : "lastName4",
+  "email" : "email4@mail.com",
+  "password" : "password"
+}' | http POST 'http://localhost:8080/user' \
+    'Content-Type:application/json;charset=utf-8' \
+    'Accept:application/json'
+----

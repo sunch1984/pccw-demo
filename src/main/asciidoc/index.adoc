@@ -1,0 +1,45 @@
+User API Docs
+
+===POST
+
+User Register
+>Create a new user
+
+HTTP Request:
+include::{snippets}/user-register/http-request.adoc[]
+HTTP Response
+include::{snippets}/user-register/http-response.adoc[]
+
+
+User login
+
+HTTP Request:
+include::{snippets}/user-login/http-request.adoc[]
+HTTP Response
+include::{snippets}/user-login/http-response.adoc[]
+
+
+User Logout
+>After logout successfully, the token should be invalid
+
+HTTP Request:
+include::{snippets}/user-logout/http-request.adoc[]
+HTTP Response
+include::{snippets}/user-logout/http-response.adoc[]
+
+===GET
+
+Get user profile
+>Use the token response from /user/login to query the user profile
+
+HTTP Request:
+include::{snippets}/getProfile-by-Token/http-request.adoc[]
+HTTP Response
+include::{snippets}/getProfile-by-Token/http-response.adoc[]
+
+Heartbeat
+
+HTTP Request:
+include::{snippets}/heartbeat/http-request.adoc[]
+HTTP Response
+include::{snippets}/heartbeat/http-response.adoc[]

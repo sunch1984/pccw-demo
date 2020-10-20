@@ -1,0 +1,13 @@
+[source,http,options="nowrap"]
+----
+HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 137
+
+{
+  "id" : "9c4b2497-f0b3-428f-b731-40dce95ea613",
+  "first" : "firstName4",
+  "last" : "lastName4",
+  "email" : "email4@mail.com"
+}
+----

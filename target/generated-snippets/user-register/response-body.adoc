@@ -1,0 +1,6 @@
+[source,options="nowrap"]
+----
+{
+  "id" : "9c4b2497-f0b3-428f-b731-40dce95ea613"
+}
+----

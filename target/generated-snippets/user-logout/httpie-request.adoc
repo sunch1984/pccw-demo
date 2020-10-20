@@ -1,0 +1,7 @@
+[source,bash]
+----
+$ echo '{
+  "token" : "87ff3ecd-b902-46c3-b6e9-46b4e2fa09f8"
+}' | http POST 'http://localhost:8080/user/logout' \
+    'Content-Type:application/json;charset=utf-8'
+----

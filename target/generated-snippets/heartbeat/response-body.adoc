@@ -1,0 +1,7 @@
+[source,options="nowrap"]
+----
+{
+  "version" : "x.y.x",
+  "releasedAt" : "2020-01-01T10:12:12.123Z"
+}
+----
